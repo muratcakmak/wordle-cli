@@ -15,5 +15,8 @@
     "conf": "^10.1.1",
     "node-fetch": "^3.2.0"
   },
-  "type": "module"
+  "type": "module",
+  "bin": {
+    "wordle": "./index.js"
+  }
 }
